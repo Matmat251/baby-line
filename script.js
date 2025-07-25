@@ -226,7 +226,7 @@ function sendOrderToWhatsApp() {
   });
   message += `Total: $${total.toFixed(2)}`;
   const encodedMessage = encodeURIComponent(message);
-  const whatsappNumber = '1234567890'; // Reemplaza con tu número de WhatsApp
+  const whatsappNumber = '952296651'; // Reemplaza con tu número de WhatsApp
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
   window.open(whatsappUrl, '_blank');
 }
